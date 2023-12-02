@@ -11,8 +11,8 @@
     <h1>Tennis Singles Match</h1>
     <script src="index.js"></script>
 
-    <section class="main-table">
-      <table>
+    <section class="table-section">
+      <table id="main-table">
         <tr>
           <td>Week</td>
           <td>Date</td>
@@ -24,13 +24,14 @@
           <td>Josh v. Jamie</td>
         </tr>
       </table>
+      <button id="add_row" onclick="addRow()">+</button>
     </section>
-    <button class="export">Export</button>
-    <h2>Players</h2> <button class="add">+</button>
-    <h2>Guests</h2> <button class="add">+</button>
+    <button id="export">Export</button>
+    <h2>Players</h2> <button id="add_player">+</button>
+    <h2>Guests</h2> <button id="add_guest">+</button>
 
 
-    <button class="create"><strong>Create Match-Ups</strong></button>
+    <button id="create"><strong>Create Match-Ups</strong></button>
     
   </body>
 </html>
